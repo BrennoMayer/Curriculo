@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Capstone Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/solution.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Link para o Font Awesome -->
+</head>
+
+<body>
+  <section id="title">
+    <div class="container col-xxl-8 px-4 pt-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Brenno Mayer.</h1>
+          <div class="resume-section-content">
+           
+            <div class="subheading mb-5">
+                Fone (47) 99915-4951 
+                <a href="mailto:name@email.com">brenno.mayer@gmail.com</a>
+            </div>
+
+          
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <button type="button" id="it-skills-btn" class="btn btn-light btn-lg px-4 me-md-2" height="20">
+              <img src="img/programmer_560338.png" alt="">IT Skills</button>
+            <button type="button" id="about-btn" class="btn btn-light btn-lg px-4 me-md-2">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+                <path d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg> About me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="container col-xxl-8 px-8 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="Profile-body">
+          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <!-- Fim do Bloco de Informação -->
+            <h5 class="Profile-title">My goal is to became a professional Programmer, check out my last Projects.</h5>
+            <a href="#" id="projects-btn" class="btn btn-primary">Projects</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="social-icons">
+      <a class="social-icon linkedin" href="https://linkedin.com/in/brenno-mayer-879700281"><i class="fab fa-linkedin-in"></i></a>
+      <a class="social-icon github" href="https://github.com/NomadLigeiro"><i class="fab fa-github"></i></a>
+  </div>  
+    
+  </section>
+  <script>
+    // Seleciona o botão "Projects" pelo ID
+    var projectsBtn = document.getElementById("projects-btn");
+
+    // Adiciona um ouvinte de evento de clique ao botão "Projects"
+    projectsBtn.addEventListener("click", function() {
+      // Redireciona para a página "projects.html"
+      window.location.href = "projects.html";
+    });
+
+    // Seleciona o botão "IT Skills" pelo ID
+    var itSkillsBtn = document.getElementById("it-skills-btn");
+
+    // Adiciona um ouvinte de evento de clique ao botão "IT Skills"
+    itSkillsBtn.addEventListener("click", function() {
+      // Redireciona para a página "itskills.html"
+      window.location.href = "itskills.html";
+    });
+
+    var About = document.getElementById("about-btn");
+
+// Adiciona um ouvinte de evento de clique ao botão "IT Skills"
+About.addEventListener("click", function() {
+  // Redireciona para a página "itskills.html"
+  window.location.href = "About.html";
+});
+
+
+
+  </script>
+</body>
+
+</html>
